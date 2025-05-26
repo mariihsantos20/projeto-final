@@ -7,7 +7,7 @@ const Layout = ({children}) => {
    
     <div className="flex flex-column min-h-screen">
     <Header/>
-    <main className="md:w-full" >
+    <main className="md:w-full bg-[#F9F8FE]" >
 
         {children}
     </main>

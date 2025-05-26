@@ -6,10 +6,10 @@ const Section = ({ title, titleAlign = 'left', link, children }) => {
   const isCentered = titleAlign === 'center';
 
   return (
-    <section className="w-full my-8">
+    <section className="w-full">
       <div
         className={`flex items-center justify-between ${
-          isCentered ? 'flex-col text-center' : 'flex-row'
+          isCentered ? 'flex-col text-center ' : 'flex-row'
         }`}
       >
         <h2
@@ -30,7 +30,7 @@ const Section = ({ title, titleAlign = 'left', link, children }) => {
         )}
       </div>
 
-      <div className="mt-4">
+      <div >
         {children}
       </div>
     </section>
@@ -44,7 +44,8 @@ Section.propTypes = {
     text: PropTypes.string.isRequired,
     href: PropTypes.string.isRequired
   }),
-  children: PropTypes.node
+  children: PropTypes.node,
+  titleClassName: PropTypes.string 
 };
 
 export default Section;
