@@ -6,7 +6,7 @@ const Section = ({ title, titleAlign = 'left', link, children }) => {
   const isCentered = titleAlign === 'center';
 
   return (
-    <section className="w-full">
+    <section className="w-full mb-8">
       <div
         className={`flex items-center justify-between ${
           isCentered ? 'flex-col text-center ' : 'flex-row'
