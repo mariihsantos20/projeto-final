@@ -74,7 +74,7 @@ const Header = () => {
                         isActive ? "text-[#EC4899] underline" : "text-[#a9a9a9] hover:underline"}>Home</NavLink>
                     <NavLink to="/produtos" className={({ isActive }) =>
                         isActive ? "text-[#EC4899] underline" : "text-[#a9a9a9] hover:underline"}>Produtos</NavLink>
-                    <NavLink to="/product/:id" className={({ isActive }) =>
+                    <NavLink to="/produto/1" className={({ isActive }) =>
                         isActive ? "text-[#EC4899] underline" : "text-[#a9a9a9] hover:underline"}>Categorias</NavLink>
                     <NavLink to="/entrar" className={({ isActive }) =>
                         isActive ? "text-[#EC4899] underline" : "text-[#a9a9a9] hover:underline"}>Meus Pedidos</NavLink>

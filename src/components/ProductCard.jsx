@@ -1,4 +1,4 @@
-// src/components/ProductCard.jsx
+
 import 'primeflex/primeflex.css';
 import { Image } from 'primereact/image';
 import { Button } from 'primereact/button';

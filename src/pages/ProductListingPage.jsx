@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Section from "../components/Section";
 import ProductListing from "../components/ProductListing";
 import FilterGroup from "../components/FilterGroup";
+import { Image } from 'primereact/image';
 import { useState } from "react";
 
 const ProductListingPage = () => {
@@ -10,24 +11,24 @@ const ProductListingPage = () => {
   const products = [
     {
       name: "Tênis Esportivo 1",
-      image: "/product-thumb-1.png",
+      image: "/product-thumb-1.jpeg",
       price: 200,
       priceDiscount: 149.9
     },
     {
       name: "Tênis Esportivo 2",
-      image: "/product-thumb-2.png",
+      image: "/product-thumb-2.jpeg",
       price: 49.9
     },
     {
       name: "Tênis Esportivo 3",
-      image: "/product-thumb-3.png",
+      image: "/product-thumb-3.jpeg",
       price: 300,
       priceDiscount: 279.9
     },
     {
       name: "Tênis Esportivo 4",
-      image: "/product-thumb-4.png",
+      image: "/product-thumb-4.jpeg",
       price: 100
     }
   ];
@@ -40,13 +41,13 @@ const ProductListingPage = () => {
   });
 
   return (
-    <Layout>
+   
       <div className="flex px-4 py-10 gap-8 max-w-7xl mx-auto">
         
-        {/* Sidebar esquerda */}
+        
         <aside className="w-[308px]">
           
-          {/* Ordenar por */}
+          
           <div className="mb-6">
             <label 
               htmlFor="order-select" 
@@ -66,7 +67,7 @@ const ProductListingPage = () => {
             </select>
           </div>
 
-          {/* Filtros */}
+          
           <div className="bg-white p-4">
             <h2 className="text-[16px] text-dark-gray-2 mb-2">Filtrar por</h2>
             <hr className="border-light-gray-2 mb-4" />
@@ -115,7 +116,7 @@ const ProductListingPage = () => {
           </Section>
         </main>
       </div>
-    </Layout>
+   
   );
 };
 

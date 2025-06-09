@@ -1,70 +1,53 @@
+import { useState, useEffect } from 'react';
 import { Galleria } from 'primereact/galleria';
-import PropTypes from 'prop-types';
+import { Photos } from './Photos.jsx';
+import { Link } from 'react-router-dom';
 
-const Galery = ({ 
-    images = [], 
-    showThumbs = false, 
-    width = '640px', 
-    height = '570px', 
-    radius = '8px' 
-}) => {
+const Galery = () => {
+  const [images, setImages] = useState([]);
 
-    const itemTemplate = (item) => {
-        return (
-            <img
-                src={item.src}
-                alt="Product image"
-                style={{
-                    width: '100%',
-                    height: height,
-                    borderRadius: radius,
-                    objectFit: 'cover',
-                    display: 'block'
-                }}
-            />
-        );
-    };
+  useEffect(() => {
+    Photos.getImages().then((data) => setImages(data));
+  }, []);
 
-    const thumbnailTemplate = (item) => {
-        return (
-            <img
-                src={item.src}
-                alt="Product thumbnail"
-                style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: radius,
-                    objectFit: 'cover',
-                    display: 'block'
-                }}
-            />
-        );
-    };
-
+  const itemTemplate = (item) => {
     return (
-        <div style={{ maxWidth: width, width: '100%' }}>
-            <Galleria
-                value={images}
-                numVisible={5}
-                circular
-                showItemNavigators
-                showItemNavigatorsOnHover
-                showIndicators
-                showThumbnails={showThumbs}
-                item={itemTemplate}
-                thumbnail={thumbnailTemplate}
-                style={{ width: '100%' }}
-            />
-        </div>
+      <Link to={item.link}>
+        <img
+          src={item.itemImageSrc}
+          alt={item.alt}
+          style={{ width: '100%', display: 'block' }}
+        />
+      </Link>
     );
-};
+  };
 
-Galery.propTypes = {
-    images: PropTypes.array.isRequired,
-    showThumbs: PropTypes.bool,
-    width: PropTypes.string,
-    height: PropTypes.string,
-    radius: PropTypes.string,
+  const thumbnailTemplate = (item) => {
+    return (
+      <img
+        src={item.thumbnailImageSrc}
+        alt={item.alt}
+        style={{ display: 'block' }}
+      />
+    );
+  };
+
+  return (
+    <div className="card">
+      <Galleria
+        value={images}
+        numVisible={5}
+        circular
+        style={{ maxWidth: '640px' }}
+        showItemNavigators
+        showItemNavigatorsOnHover
+        showIndicators
+        showThumbnails={false}
+        item={itemTemplate}
+        thumbnail={thumbnailTemplate}
+      />
+    </div>
+  );
 };
 
 export default Galery;

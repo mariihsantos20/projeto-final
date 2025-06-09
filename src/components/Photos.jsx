@@ -7,14 +7,15 @@ export const Photos = {
                 itemImageSrc: '/home-slide-1.png',
                 thumbnailImageSrc: '/home-slide-1.png',
                 alt: 'Foto 1',
-                title: 'Foto 1'
-                
+                title: 'Foto 1',
+                link: '/produto/1'
             },
             {
                 itemImageSrc: '/home-slide-2.png',
                 thumbnailImageSrc: '/home-slide-2.png',
                 alt: 'Foto 2',
-                title: 'Foto 2'
+                title: 'Foto 2',
+                link: '/produto/2'
             },
             {
                 itemImageSrc: '/home-slide-3.png',

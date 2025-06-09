@@ -6,7 +6,7 @@ import { Image } from 'primereact/image';
 import Icon from "../components/Icons";
 
 const HomePage = () => {
-   const products = [
+ const products = [
         {
             name: "K-Swiss V8 - Masculino",
             image: "/tenis.png",
