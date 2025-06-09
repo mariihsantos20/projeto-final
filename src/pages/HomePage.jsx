@@ -9,49 +9,49 @@ const HomePage = () => {
    const products = [
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+           image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "./tenis.png",
+            image: "/tenis.png",
             price: 200,
             priceDiscount: 100
         }
