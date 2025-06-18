@@ -4,7 +4,7 @@ const ProductListing = ({ products }) => {
     return (
         <div>
            <div
-                className="hidden flex-wrap lg:flex gap-4 px-4 py-4"
+                className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-2"
                
             >
                 {products.map((product, index) => (
