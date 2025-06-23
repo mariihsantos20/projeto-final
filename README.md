@@ -37,8 +37,7 @@ Desenvolver uma aplicação web completa, com foco na construção de componente
 2. Instale as dependências:
 ```bash
 npm install
-
-3. Rode o projeto:
+3.Rode o projeto:
 ```bash
 npm start
 
@@ -54,23 +53,4 @@ OBS.: Requisitos importantes para execução do projeto:
 - Node.js versão 16 ou superior
 - npm (ou yarn)
 - Navegador moderno
----
-
-## 🌐 Deploys
-
-Link do deploy GitHub:  
-[https://](https://)
-
----
-## 🧠 Recursos Úteis
-
-[React Docs](https://reactjs.org/docs/getting-started.html)
-[Tutorial Figma](https://www.figma.com/resources/learn-design/)
-[GitHub Hello World](https://guides.github.com/activities/hello-world/)
-[Pro Git Book](https://git-scm.com/book/en/v2)
----
-##👨‍💻 Membros da Equipe
-
-Mariana Santos Oliveira
-Geovana Almeida da Silva
-Kayo Erysson da Silva Alves
+ 
