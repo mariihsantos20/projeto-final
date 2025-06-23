@@ -64,14 +64,16 @@ Link do deploy GitHub:
 ---
 ## 🧠 Recursos Úteis
 
-[React Docs](https://reactjs.org/docs/getting-started.html)
-[Tutorial Figma](https://www.figma.com/resources/learn-design/)
-[GitHub Hello World](https://guides.github.com/activities/hello-world/)
-[Pro Git Book](https://git-scm.com/book/en/v2)
+- [React Docs](https://reactjs.org/docs/getting-started.html)
+- [Tutorial Figma](https://www.figma.com/resources/learn-design/)
+- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+- [Pro Git Book](https://git-scm.com/book/en/v2)
 ---
 ##👨‍💻 Membros da Equipe
 
 💙[Mariana Santos Oliveira](https://github.com/mariihsantos20)
+
 💙[Geovana Almeida da Silva](https://github.com/geovanaalmds)
+
 💙[Kayo Erysson da Silva Alves](https://github.com/Kacloks)
  
