@@ -22,9 +22,9 @@ const ProductViewPage = () => {
       description:
         "Tênis confortável para o dia a dia com cabedal reciclado e ótimo custo-benefício.",
       images: [
-        { src: "/product-image-1.png" },
-        { src: "/product-image-2.png" },
-        { src: "/product-image-3.png" },
+        { src: "product-image-1.png" },
+        { src: "product-image-2.png" },
+        { src: "product-image-3.png" },
       ],
       sizes: ["39", "40", "41", "42", "43"],
       colors: ["#000000", "#FFFFFF", "#FF0000"],
@@ -40,9 +40,9 @@ const ProductViewPage = () => {
       description:
         "Tênis de alta performance com retorno de energia e conforto premium.",
       images: [
-        { src: "/product-thumb-1.png" },
-        { src: "/product-thumb-2.png" },
-        { src: "/product-thumb-3.png" },
+        { src: "product-thumb-1.png" },
+        { src: "product-thumb-2.png" },
+        { src: "product-thumb-3.png" },
       ],
       sizes: ["38", "39", "40", "41", "42"],
       colors: ["#000000", "#0088ff", "#ffffff"],
@@ -64,25 +64,25 @@ const ProductViewPage = () => {
   const recommendedProducts = [
     {
       name: "K-Swiss V8 - Masculino",
-      image: "/tenis.png",
+      image: "tenis.png",
       price: 200,
       priceDiscount: 100,
     },
     {
       name: "K-Swiss V8 - Masculino",
-      image: "/tenis.png",
+      image: "tenis.png",
       price: 200,
       priceDiscount: 100,
     },
     {
       name: "K-Swiss V8 - Masculino",
-      image: "/tenis.png",
+      image: "tenis.png",
       price: 200,
       priceDiscount: 100,
     },
     {
       name: "K-Swiss V8 - Masculino",
-      image: "/tenis.png",
+      image: "tenis.png",
       price: 200,
       priceDiscount: 100,
     },

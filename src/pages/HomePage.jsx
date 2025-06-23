@@ -9,49 +9,49 @@ const HomePage = () => {
  const products = [
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-           image: "/tenis.png",
+           image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "/tenis.png",
+            image: "tenis.png",
             price: 200,
             priceDiscount: 100
         }
@@ -74,7 +74,7 @@ const HomePage = () => {
         }} />
      </div>
      <div className="flex"><Galery/>
-      <div><Image src="/ornament.png" alt="ornament" width="240px" /></div>
+      <div><Image src="ornament.png" alt="ornament" width="240px" /></div>
       </div>
      </div>
     </Section>
@@ -159,14 +159,14 @@ const HomePage = () => {
     
     {/* Ellipse (fundo) */}
     <Image 
-      src="/Ellipse 11.png" 
+      src="Ellipse 11.png" 
       alt="Ellipse" 
      className="object-contain absolute top-0 left-30 z-0"
     />
 
     {/* Jordan (frente) */}
     <Image 
-      src="/jordan.png" 
+      src="jordan.png" 
       alt="Jordan" 
       className="object-contain absolute top-8 left-0 z-10"
     />

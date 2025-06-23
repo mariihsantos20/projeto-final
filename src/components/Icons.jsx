@@ -4,11 +4,11 @@ const Icon = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const icons = [
-    { gray: '/icon-grey-1.png', pink: '/icon-pink-1.png', label: 'Camisetas' },
-    { gray: '/icon-grey-2.png', pink: '/icon-pink-2.png', label: 'Calças' },
-    { gray: '/icon-grey-3.png', pink: '/icon-pink-3.png', label: 'Bonés' },
-    { gray: '/icon-grey-4.png', pink: '/icon-pink-4.png', label: 'Headphones' },
-    { gray: '/icon-grey-5.png', pink: '/icon-pink-5.png', label: 'Tênis' },
+    { gray: 'icon-grey-1.png', pink: 'icon-pink-1.png', label: 'Camisetas' },
+    { gray: 'icon-grey-2.png', pink: 'icon-pink-2.png', label: 'Calças' },
+    { gray: 'icon-grey-3.png', pink: 'icon-pink-3.png', label: 'Bonés' },
+    { gray: 'icon-grey-4.png', pink: 'icon-pink-4.png', label: 'Headphones' },
+    { gray: 'icon-grey-5.png', pink: 'icon-pink-5.png', label: 'Tênis' },
   ];
 
   const handleIconClick = (index) => {
