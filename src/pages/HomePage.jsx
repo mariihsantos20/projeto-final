@@ -94,7 +94,7 @@ const HomePage = () => {
       {[1, 2, 3].map((num) => (
         <div key={num} className="relative w-[90%] sm:w-[250px] md:w-[300px]">
           <Image
-            src={`/collection-${num}.png`}
+            src={`collection-${num}.png`}
             alt={`Coleção ${num}`}
             imageClassName="rounded-lg w-full"
           />
