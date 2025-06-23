@@ -38,11 +38,11 @@ Desenvolver uma aplicação web completa, com foco na construção de componente
 ```bash
 npm install
 
-3.Rode o projeto:
+3. Rode o projeto:
 ```bash
 npm start
 
-4.Acesse no navegador:
+4. Acesse no navegador:
  VITE v6.3.5 ready in 2933 ms
 
    ➜  Local:   http://localhost:5173/
@@ -55,6 +55,7 @@ OBS.: Requisitos importantes para execução do projeto:
 - npm (ou yarn)
 - Navegador moderno
 ---
+
 ## 🌐 Deploys
 
 Link do deploy GitHub:  
