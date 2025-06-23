@@ -1,12 +1,75 @@
-# React + Vite
+# 🛍️ Digital Store - Projeto de Front-end (React)
+Este projeto faz parte do curso de **Desenvolvedor Web Full Stack - Online - 2.0 ** da **Geração Tech**. O objetivo principal é aplicar conhecimentos de **React**, **componentização**, **estilização moderna** e boas práticas de desenvolvimento.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto foi inspirado na documentação original disponível no repositório oficial:
 
-Currently, two official plugins are available:
+- [📄 Documentação no GitHub](https://github.com/digitalcollegebr/projeto-digital-store)
+- [🎨 Design no Figma](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## 🎯 Objetivo
 
-## Expanding the ESLint configuration
+Desenvolver uma aplicação web completa, com foco na construção de componentes reutilizáveis, uso de bibliotecas modernas e respeito à lógica de uma aplicação de e-commerce fictícia.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 🧱 Estrutura do Projeto
+
+### 🔹 Páginas implementadas:
+
+- **Página Inicial** – Destaques, ofertas e vitrines.
+- **Página de Listagem de Produtos** – Produtos renderizados dinamicamente.
+- **Página de Detalhes do Produto** – Componente visual (mockado).
+
+### 🔧 Tecnologias utilizadas:
+
+- [React](https://reactjs.org/)
+- [PrimeReact](https://primereact.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Deploy via **GitHub Pages**
+
+---
+## 🚀 Como rodar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/mariihsantos20/projeto-final.git
+
+2. Instale as dependências:
+```bash
+npm install
+
+3.Rode o projeto:
+```bash
+npm start
+
+4.Acesse no navegador:
+ VITE v6.3.5 ready in 2933 ms
+
+   ➜  Local:   http://localhost:5173/
+
+Abra no navegador segurando Ctrl e clique no endereço local para visualizar o projeto.
+
+OBS.: Requisitos importantes para execução do projeto:
+
+- Node.js versão 16 ou superior
+- npm (ou yarn)
+- Navegador moderno
+---
+## 🌐 Deploys
+
+Link do deploy GitHub:  
+[https://](https://)
+
+---
+## 🧠 Recursos Úteis
+
+[React Docs](https://reactjs.org/docs/getting-started.html)
+[Tutorial Figma](https://www.figma.com/resources/learn-design/)
+[GitHub Hello World](https://guides.github.com/activities/hello-world/)
+[Pro Git Book](https://git-scm.com/book/en/v2)
+---
+##👨‍💻 Membros da Equipe
+
+Mariana Santos Oliveira
+Geovana Almeida da Silva
+Kayo Erysson da Silva Alves
